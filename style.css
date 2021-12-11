@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Colby Condensed";
+    src: url("Colby-CdReg.otf") format("opentype");
+}
+
+.body {
+    font-feature-settings: "kern", "liga", "pmun";
+    font-family: 'Colby Condensed', Lucida, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+.navbar {
+    background-color: #d21012;
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar.center .navbar-inner .navbar-nav{
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .navbar-nav .nav {
+    display:inline-block;
+    float: none;
+}
+
+.full {
+    width: 100%;
+    height: auto;
+}
